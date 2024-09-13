@@ -13,4 +13,8 @@ while not valid:
     else: print("Not a valid input! Try a value of 1 or higher.")
 
 output = random.randrange(1, sides)
+length = len(str(output))
+print(f"+{"-" * length}+")
+print(f"|{output}|")
+print(f"+{"-" * length}+")
 print(f"It landed on {output}!")
